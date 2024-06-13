@@ -1,0 +1,25 @@
+{
+  "name": "ddd-com-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run --no-isolate",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.12.13",
+    "typescript": "^5.4.5",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "vite": "^5.2.13"
+  }
+}
